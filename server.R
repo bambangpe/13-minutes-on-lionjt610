@@ -1,18 +1,10 @@
 library(shiny)
 library(shinythemes)
 library(plyr)
-library(corrplot)
 library(ggplot2)
 library(gridExtra)
 library(ggthemes)
-library(caret)
-library(MASS)
-#library(randomForest)
-library(party)
 library(dplyr)
-library(shiny)
-library(stats)
-library(base)
 d <- read.csv("./data/J11.csv")
 d
 gd <- ggplot(d,aes(x=Timestamp))+
