@@ -5,14 +5,9 @@ library(corrplot)
 library(ggplot2)
 library(gridExtra)
 library(ggthemes)
-library(caret)
-library(MASS)
-#library(randomForest)
 library(party)
 library(dplyr)
-library(shiny)
-library(stats)
-library(base)
+
 ui <- shinyUI(navbarPage(
   theme = shinytheme("superhero"),
   strong("13 minutes of Lion Air JT610"),
